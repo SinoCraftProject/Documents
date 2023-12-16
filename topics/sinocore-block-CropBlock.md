@@ -1,6 +1,6 @@
 # 作物
 
-作物基类为 `games.moegirl.sinocraft.sinocore.block.SimpleCropBlock`，该类表示一个一般情况下的单方块作物。该类继承自 `CropBlock`，与 `CropBlock` 相比具有以下特点：
+作物基类为 `SimpleCropBlock`，该类表示一个一般情况下的单方块作物。该类继承自 `CropBlock`，与 `CropBlock` 相比具有以下特点：
 
 - 可自定义作物生长阶段
 - 可配合 `AbstructLootTableProvider` 自动生成对应掉落物的战利品表
@@ -22,7 +22,7 @@ public SimpleCropBlock(int age, int minCrop, int maxCrop) {
 影响成熟后掉落物数量，该构造函数用于创建类似原版甜菜、马铃薯等带有种子的作物。 第二个构造只需要额外给两个 `count` 参数即可，表示成熟后掉落物数量。
 此构造创建的是类似原版胡萝卜等成熟产物与种子为同一个物品的作物。
 
-如果一个作物没有特殊需求，该类中被重写的最常见的方法是 `VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context)`。
+如果一个作物没有特殊需求，该类中最常被重写的方法是 `VoxelShape getShape(BlockState, BlockGetter, BlockPos, CollisionContext)`。
 该方法用于修改不同情况下作物的碰撞体积。
 
 ## 双层作物
@@ -37,8 +37,8 @@ public SimpleCropBlock(int age, int minCrop, int maxCrop) {
 - `VoxelShape getShape(BlockState, BlockGetter, BlockPos, CollisionContext)`：获取方块的模型大小
 - `boolean mayPlaceOn(BlockState pState, BlockGetter pLevel, BlockPos pPos)`：对应物品可以放置在怎样的方块上。给定的 `pPos`
   和 `pState` 是下方方块的位置，上方方块不会触发该方法的判断，因此该方法往往需要同时判断当前位置和上方位置两个位置是否符合标准
-- `boolean canSurviveLower(BlockState state, LevelReader level, BlockPos pos)`：下方方块是否可以放置在对应位置上。
-  这里不用判断上方方块是否符合要求。该方法将在 `canSurvive` 方法中调用。
+- `boolean canSurviveLower(BlockState, LevelReader, BlockPos)`：下方方块是否可以放置在对应位置上。 这里不用判断上方方块是否符合要求。
+该方法将在 `canSurvive` 方法中调用。
 
 ## 实例
 
@@ -189,7 +189,7 @@ public SimpleCropBlock(int age, int minCrop, int maxCrop) {
     - 上层作物方块: `作物方块名_stage_top_作物age属性`
     - 下层作物方块: `作物方块名_stage_bottom_作物age属性`
 
-   单层作物材质命名规则为：`作物方块名_stage_作物age属性`，如茄子的材质包括以下几个：
+   单层作物材质命名规则为：`作物方块名_stage_作物age属性`，如茄子的 age 属性值为 0-8，则其材质包括以下几个：
 
     - `resources/assets/sinofoundation/textures/block/eggplant_stage_0.png`
     - `resources/assets/sinofoundation/textures/block/eggplant_stage_1.png`

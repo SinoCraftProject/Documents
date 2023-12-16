@@ -1,6 +1,6 @@
 # VoxelShapeHelper
 
-`games.moegirl.sinocraft.sinocore.utility.VoxelShapeHelper` 工具类提供了对方块范围的翻转支持：
+`VoxelShapeHelper` 工具类提供了对方块范围的翻转支持：
 
 - `VoxelShape rotateHorizontal(VoxelShape shape, Direction from, Direction to)`：
 - `VoxelShape rotateClockwise(VoxelShape shape)`：顺时针翻转 1 次
