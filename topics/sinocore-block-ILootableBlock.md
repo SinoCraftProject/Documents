@@ -1,6 +1,6 @@
 # ILootableBlock
 
-`games.moegirl.sinocraft.sinocore.block.ILootableBlock` 接口用于在 `Block` 类中定义掉落物。该接口有且仅有一个方法 `createLootBuilder` 用于生成方块掉落物的战利品表。
+`ILootableBlock` 接口用于在 `Block` 类中定义掉落物。该接口有且仅有一个方法 `createLootBuilder` 用于生成方块掉落物的战利品表。
 
 ```java
 /**
