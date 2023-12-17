@@ -10,7 +10,7 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: Writerside/SinoSeriesDocument
+  INSTANCE: /sinoseries
   ARTIFACT: sinoseries_document.zip
   DOCKER_VERSION: 233.4797
 
