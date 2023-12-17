@@ -11,7 +11,7 @@ permissions:
 
 env:
   INSTANCE: Documents/documents
-  ARTIFACT: sinoseries_document.zip
+  ARTIFACT: webHelpDOCUMENTS2-all.zip
   DOCKER_VERSION: 233.4797
 
 jobs:
