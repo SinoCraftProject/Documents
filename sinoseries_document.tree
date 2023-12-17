@@ -4,7 +4,7 @@
 
 <instance-profile id="sinoseries_document"
                  name="SinoSeries Document"
-                 start-page="sinocore.md">
+                 start-page="starter-topic.md">
 
     <toc-element topic="sinocore.md">
         <toc-element topic="sinocore-block.md">
