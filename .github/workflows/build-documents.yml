@@ -10,8 +10,8 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: sinoseries_document.tree
-  ARTIFACT: sinoseries-document.zip
+  INSTANCE: Writerside/SinoSeriesDocument
+  ARTIFACT: sinoseries_document.zip
   DOCKER_VERSION: 233.4797
 
 jobs:
