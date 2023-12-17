@@ -6,12 +6,4 @@
         <accepts>page.html</accepts>
     </rule>
     -->
-    <rule id="66154270">
-        <description><![CDATA[Created after removal of "<sinocore-block.md>" from SinoSeries Document]]></description>
-        <accepts>sinocore-block.html</accepts>
-    </rule>
-    <rule id="16693e55">
-        <description>Created after removal of "Item" from SinoSeries Document</description>
-        <accepts>sinocore-item.html</accepts>
-    </rule>
 </rules>
