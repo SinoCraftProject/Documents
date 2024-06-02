@@ -6,4 +6,28 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="7990e81b">
+        <description>Created after removal of "ILootableBlock" from SinoSeries Document</description>
+        <accepts>dev-sc-block-ILootableBlock.html</accepts>
+    </rule>
+    <rule id="2c0c08ed">
+        <description>Created after removal of "Crop" from SinoSeries Document</description>
+        <accepts>dev-sc-block-crops.html</accepts>
+    </rule>
+    <rule id="5c1be0ab">
+        <description>Created after removal of "作物" from SinoSeries Document</description>
+        <accepts>dev-sc-block-crop-blocks.html</accepts>
+    </rule>
+    <rule id="5bb1c687">
+        <description>Created after removal of "带有 BlockEntity 的 Block" from SinoSeries Document</description>
+        <accepts>dev-sc-block-BlockWithBlockEntity.html</accepts>
+    </rule>
+    <rule id="3a96065">
+        <description>Created after removal of "箱子" from SinoSeries Document</description>
+        <accepts>dev-sc-block-chests.html</accepts>
+    </rule>
+    <rule id="342d1516">
+        <description>Created after removal of "BlockLootables" from SinoSeries Document</description>
+        <accepts>dev-sc-utility-BlockLootables.html</accepts>
+    </rule>
 </rules>

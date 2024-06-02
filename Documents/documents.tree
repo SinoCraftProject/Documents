@@ -15,18 +15,11 @@
         </toc-element>
         <toc-element toc-title="SinoCore 华夏核心">
             <toc-element topic="dev-sc.md"/>
-            <toc-element toc-title="方块">
-                <toc-element topic="dev-sc-block-ILootableBlock.md"/>
-                <toc-element topic="dev-sc-block-crops.md"/>
-                <toc-element topic="dev-sc-block-crop-blocks.md"/>
-                <toc-element topic="dev-sc-block-BlockWithBlockEntity.md"/>
-                <toc-element topic="dev-sc-block-chests.md"/>
-            </toc-element>
-            <toc-element toc-title="数据生成"/>
+            <toc-element topic="dev-sc-data-generator.md"/>
+            <toc-element topic="dev-sc-gui.md"/>
             <toc-element toc-title="物品"/>
             <toc-element toc-title="工具类">
-                <toc-element topic="dev-sc-utility-BlockLootables.md"/>
-                <toc-element topic="dev-sc-utility-VoxelShapeHelper.md"/>
+                <toc-element topic="dev-sc-utility-BlockShapeHelper.md"/>
             </toc-element>
         </toc-element>
     </toc-element>
