@@ -1,6 +1,6 @@
 # BlockShapeHelper
 
-`BlockShapeHelper` 工具类提供了操作 `VoxelShape` 的常见工具方法。
+`BlockShapeHelper` 工具类提供了以方块为单位操作 `VoxelShape` 的常见工具方法。
 
 - `VoxelShape rotateX(VoxelShape shape)`：以X轴顺时针旋转 `shape`。
 - `VoxelShape rotateY(VoxelShape shape)`：以Y轴顺时针旋转`shape`。

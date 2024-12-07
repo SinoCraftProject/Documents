@@ -9,7 +9,7 @@
    *正例：* `QingGui`（青珪，一种上尖下方的玉质礼器）  
    *反例：* `ModWuPin`（模组物品）
 
-2. **【强制】** 所有的类命名均使用 PascalCase（又称大驼峰、CapitalCamelCase 或 UpperCamelCase）风格。  
+2. **【强制】** 所有的类命均使用 PascalCase（又称大驼峰、CapitalCamelCase 或 UpperCamelCase）风格。  
    *正例：* `ModClass`
 
 3. **【强制】** 所有的接口命名以大写字母 I 开头。  
