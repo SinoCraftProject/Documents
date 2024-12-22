@@ -1,7 +1,9 @@
 # BlockShapeHelper
 
-`BlockShapeHelper` 工具类提供了以方块为单位操作 `VoxelShape` 的常见工具方法。
+`BlockShapeHelper`封装了以方块的像素为单位操作`VoxelShape`的常见操作。  
+常用于处理由`Block.box(double x1, double y1, double z1, double x2, double y2, double z2)`构造的`VoxelShape`。
 
-- `VoxelShape rotateX(VoxelShape shape)`：以X轴顺时针旋转 `shape`。
-- `VoxelShape rotateY(VoxelShape shape)`：以Y轴顺时针旋转`shape`。
-- `VoxelShape or(VoxelShape[] shapes)`：封装了 `Shapes.or(VoxelShape shape1, VoxelShape shape2)` 和 `Shapes.or(VoxelShape shape1, VoxelShape... others)` ，用于合并若干个 `VoxelShape`。
+- `VoxelShape rotateX(VoxelShape shape)`
+  - 绕X轴顺时针旋转`shape`。
+- `VoxelShape rotateY(VoxelShape shape)`
+  - 绕Y轴顺时针旋转`shape`。
