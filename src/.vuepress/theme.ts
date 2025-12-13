@@ -11,8 +11,6 @@ export default hopeTheme({
     url: "https://github.com/SinoCraftProject",
   },
 
-  iconAssets: "fontawesome-with-brands",
-
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   repo: "SinoCraftProject/Documents",
@@ -100,6 +98,11 @@ export default hopeTheme({
 
     components: {
       components: ["Badge", "VPCard"],
+    },
+
+    icon: {
+      prefix: "fa6-solid:",
+      assets: "fontawesome-with-brands"
     },
 
     catalog: true,
