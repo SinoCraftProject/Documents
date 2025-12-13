@@ -22,3 +22,13 @@
   - 根据注册表自动生成物品模型、方块状态
   - 自动在不同的`LanguageProvider`提供的翻译键之间比较差异
   - 提供了更宽松的`ModelFile.ExistingModelFile`实现，输出警告而非直接抛出异常
+
+## 使用许可
+本项目采用PolyForm Shield License 1.0.0，详情请参阅[LICENSE](https://github.com/SinoCraftProject/SinoCore/blob/main/LICENSE)文件。
+
+## 相关链接
+GitHub仓库：https://github.com/SinoCraftProject/SinoCore  
+Wiki：https://docs.sino.moegirl.games/dev/sinocore/  
+CurseForge页面：https://www.curseforge.com/minecraft/mc-mods/sinocore  
+Modrinth页面：https://modrinth.com/mod/sinocore  
+MC百科页面：https://www.mcmod.cn/class/15622.html
