@@ -33,7 +33,7 @@ SinoCore的`modid`为`sinocore`。
 modId = "sinocore"
 type = "required"
 versionRange = "[1.2.0,1.3)"  # 表示1.2.0以上但低于1.3.0的版本
-ordering = "AFTER"          # 需要在SinoCore加载完成后再加载
+ordering = "AFTER"            # 需要在SinoCore加载完成后再加载
 side = "BOTH"
 ```
 
